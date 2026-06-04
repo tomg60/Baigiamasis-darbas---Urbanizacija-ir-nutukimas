@@ -15,8 +15,8 @@ library(tibble)
 # 2. Pradiniai nustatymai
 # ============================================================
 
-path_nut <- "/Users/apple/Documents/duomenys_nutukimas.xlsx"
-path_urb <- "/Users/apple/Downloads/urbanizacija_duom.xls"
+path_nut <- "duomenys_nutukimas.xlsx"
+path_urb <- "urbanizacija_duom.xls"
 
 conts <- c("Europe", "Africa", "Asia", "Americas")
 
