@@ -371,7 +371,7 @@ make_forecast_table <- function(res_list, indicator_name) {
 # 4. Nutukimo duomenų nuskaitymas ir paruošimas
 # ============================================================
 
-nut_raw <- read_excel(path_nut, sheet = "lytys", guess_max = 1e5)
+nut_raw <- read_excel(path_nut, sheet = "duomenys", guess_max = 1e5)
 
 nut <- nut_raw %>%
   mutate(
